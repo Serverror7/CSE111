@@ -1,0 +1,15 @@
+# def createList(n):
+#     lst = []
+#     for i in range(n+1):
+#         lst.append(i)
+#     return(lst)
+
+# print(createList(93))
+
+names = ['Actinium', 'Silver', 'Aluminum', 'Argon', 'Arsenic', 'Astatine', 'Gold', 'Boron', 'Barium', 'Beryllium', 'Bismuth', 'Bromine', 'Carbon', 'Calcium', 'Cadmium', 'Cerium', 'Chlorine', 'Cobalt', 'Chromium', 'Cesium', 'Copper', 'Dysprosium', 'Erbium', 'Europium', 'Fluorine', 'Iron', 'Francium', 'Gallium', 'Gadolinium', 'Germanium', 'Hydrogen', 'Helium', 'Hafnium', 'Mercury', 'Holmium', 'Iodine', 'Indium', 'Iridium', 'Potassium', 'Krypton', 'Lanthanum', 'Lithium', 'Lutetium', 'Magnesium', 'Manganese', 'Molybdenum', 'Nitrogen', 'Sodium', 'Niobium', 'Neodymium', 'Neon', 'Nickel', 'Neptunium', 'Oxygen', 'Osmium', 'Phosphorus', 'Protactinium', 'Lead', 'Palladium', 'Promethium', 'Polonium', 'Praseodymium', 'Platinum', 'Plutonium', 'Radium', 'Rubidium', 'Rhenium', 'Rhodium', 'Radon', 'Ruthenium', 'Sulfur', 'Antimony', 'Scandium', 
+'Selenium', 'Silicon', 'Samarium', 'Tin', 'Strontium', 'Tantalum', 'Terbium', 'Technetium', 'Tellurium', 'Thorium', 'Titanium', 'Thallium', 'Thulium', 'Uranium', 'Vanadium', 'Tungsten', 'Xenon', 'Yttrium', 'Ytterbium', 'Zinc', 'Zirconium']
+abreviated_names = ['Ac', 'Ag', 'Al', 'Ar', 'As', 'At', 'Au', 'B', 'Ba', 'Be', 'Bi', 'Br', 'C', 'Ca', 'Cd', 'Ce', 'Cl', 'Co', 'Cr', 'Cs', 'Cu', 'Dy', 'Er', 'Eu', 'F', 'Fe', 'Fr', 'Ga', 'Gd', 'Ge', 'H', 'He', 'Hf', 'Hg', 'Ho', 'I', 'In', 'Ir', 'K', 'Kr', 'La', 'Li', 'Lu', 'Mg', 'Mn', 'Mo', 'N', 'Na', 'Nb', 'Nd', 'Ne', 'Ni', 'Np', 'O', 'Os', 'P', 'Pa', 'Pb', 'Pd', 'Pm', 'Po', 'Pr', 'Pt', 'Pu', 'Ra', 'Rb', 'Re', 'Rh', 'Rn', 'Ru', 'S', 'Sb', 'Sc', 'Se', 'Si', 'Sm', 'Sn', 'Sr', 'Ta', 'Tb', 'Tc', 'Te', 'Th', 'Ti', 'Tl', 'Tm', 'U', 'V', 'W', 'Xe', 'Y', 'Yb', 'Zn', 'Zr']
+weight = [227, 107.8682, 26.9815386, 39.948, 74.9216, 210, 196.966569, 10.811, 137.327, 9.012182, 208.9804, 79.904, 12.0107, 40.078, 112.411, 140.116, 35.453, 58.933195, 51.9961, 132.9054519, 63.546, 162.5, 167.259, 151.964, 18.9984032, 55.845, 223, 69.723, 157.25, 72.64, 1.00794, 4.002602, 178.49, 200.59, 164.93032, 126.90447, 114.818, 192.217, 39.0983, 83.798, 138.90547, 6.941, 174.9668, 24.305, 54.938045, 95.96, 14.0067, 22.98976928, 92.90638, 144.242, 20.1797, 58.6934, 237, 15.9994, 190.23, 30.973762, 231.03588, 207.2, 106.42, 145, 209, 140.90765, 195.084, 244, 226, 85.4678, 186.207, 102.9055, 222, 101.07, 32.065, 121.76, 44.955912, 78.96, 28.0855, 150.36, 118.71, 87.62, 180.94788, 158.92535, 98, 127.6, 232.03806, 47.867, 204.3833, 168.93421, 238.02891, 50.9415, 183.84, 131.293, 88.90585, 173.054, 65.38, 91.224]
+number = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93]
+for i in number:
+    print(f'["{abreviated_names[i]}", "{names[i]}", {weight[i]}],')
